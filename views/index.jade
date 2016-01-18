@@ -20,6 +20,11 @@ html
               if tokenRequired
                 input(type="text", name="token", placeholder="Enter the invite token you were given")#slack-token.field
               input(type="submit", value="Join").submit
+        .footer
+          p Made with
+            span.heart ❤︎
+            | by &nbsp;
+            a(href='https://twitter.com/thiruppathi') Thiru
     script.
       var tokenRequired = #{tokenRequired};
       var form = document.getElementById('join-form');
