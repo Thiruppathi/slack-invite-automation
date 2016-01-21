@@ -1,6 +1,9 @@
 Slack Invite Automation
 ------------
 
+Forked from [outsideris](https://github.com/outsideris/slack-invite-automation)
+Made small changes to UI to suit my team's need. All credit goes to [outsideris](https://github.com/outsideris/slack-invite-automation)
+
 A tiny web application to invite a user into your slack team.
 
 Inspired by
@@ -42,4 +45,4 @@ $ bin/www
 
 You can access <http://localhost:3000> on your web browser.
 
-![](https://raw.github.com/outsideris/slack-invite-automation/master/screenshots/join-page.jpg)
+![](/assets/slack-invite.png)
